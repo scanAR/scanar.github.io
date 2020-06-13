@@ -1,0 +1,10 @@
+newmtl material0
+d 0.500000
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 1
+Ns 0
+Ni 1.450000
+Tr 0.500000
+map_Kd model.png

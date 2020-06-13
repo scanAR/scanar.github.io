@@ -5,10 +5,17 @@
 <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
 
 <body style="margin : 0px; overflow: hidden;">
-    <a-scene embedded arjs>
-      <a-marker preset="hiro">
-        <a-entity obj-model="obj: url(test.obj); mtl: url(test.mtl)"></a-entity>
+    <!-- <a-scene embedded arjs> -->
+      <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 4x4_BCH_13_9_3;'>
+      <!-- <a-marker preset="hiro"> -->
+      <a-marker type='barcode' value='206'>
+        <a-entity obj-model="obj: url(model.obj); mtl: url(model.mtl)"></a-entity>
       </a-marker>
+
+      <a-marker type='barcode' value='206'>
+        <a-entity obj-model="obj: url(image.obj); mtl: url(image.mtl)"></a-entity>
+      </a-marker>
+
       <a-entity camera></a-entity>
     </a-scene>
 </body>
