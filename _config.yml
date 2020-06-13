@@ -1,0 +1,13 @@
+name: "scanAR"
+description: "Website for testing AR"
+
+url: 'https://scanar.github.io/' 
+baseurl: ''
+
+# Build settings
+gems: [jekyll-paginate]
+markdown: kramdown
+highlighter: rouge
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
