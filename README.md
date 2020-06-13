@@ -1,4 +1,4 @@
-![](img\scanAR.png)
+![](https://github.com/scanAR/scanar.github.io/blob/master/img/scanAR.png)
 
 # scanAR_site
 Website for scanAR prototypes
