@@ -1,7 +1,7 @@
 ![](https://github.com/scanAR/scanar.github.io/blob/master/img/scanAR.png)
 
 # scanAR
-This is the repository for a GitHub pages based website to experiment with based AR visualization prototypes.
+This is the repository for a GitHub pages based website to experiment with Augmented Reality (AR) based visualizations.
 [https://scanar.github.io/](https://scanar.github.io/)
 
 # Get started with AR
