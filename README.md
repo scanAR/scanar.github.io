@@ -6,11 +6,9 @@ This is the repository for a GitHub pages based website to experiment with based
 
 # Get started with AR
 1. Print this marker on paper such that it is about 6cm wide.
-<img src="/markers/4x4_bch_13_9_3/206.png" alt="https://github.com/scanAR/scanar.github.io/blob/master/img/206_border.png" width="200">
+<img src="/img/206_border.png" alt="https://github.com/scanAR/scanar.github.io/blob/master/img/206_border.png" width="200">
 
-2. Head over to: [https://scanar.github.io/](https://scanar.github.io/) and allow the webcam to start.
-   
-3. Hold up the marker and enjoy the AR magic!
+2. Head over to: [https://scanar.github.io/](https://scanar.github.io/), allow the webcam to start, hold up the marker, and enjoy the AR magic!
 
 <img src="/img/test_bunny.gif" alt="https://github.com/scanAR/scanar.github.io/blob/master/img/test_bunny.gif" width="200">
 
