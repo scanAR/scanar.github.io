@@ -1,16 +1,18 @@
-![](https://github.com/scanAR/scanar.github.io/blob/master/img/scanAR.png)
+![](/img/scanAR.png)
 
 # scanAR
 This is the repository for a GitHub pages based website to experiment with based AR visualization prototypes.
 [https://scanar.github.io/](https://scanar.github.io/)
 
 # Get started with AR
-1. Print off this marker e.g. 4cm big with a 1cm white border.
- <img src="/markers/4x4_bch_13_9_3/206.png" alt="/markers/4x4_bch_13_9_3/206.png" width="200">
+1. Print this marker on paper such that it is about 6cm wide.
+<img src="/markers/4x4_bch_13_9_3/206.png" alt="https://github.com/scanAR/scanar.github.io/blob/master/img/206_border.png" width="200">
 
-2. Head over to: [https://scanar.github.io/](https://scanar.github.io/), allow the webcam to start and hold up the marker and enjoy the AR magic.
+2. Head over to: [https://scanar.github.io/](https://scanar.github.io/) and allow the webcam to start.
+   
+3. Hold up the marker and enjoy the AR magic!
 
-<img src="/img/test_bunny.gif" alt="/img/test_bunny.gif" width="200">
+<img src="/img/test_bunny.gif" alt="https://github.com/scanAR/scanar.github.io/blob/master/img/test_bunny.gif" width="200">
 
 # Contributing
 If you want to help feel free to fork this repository and propose changes in a pull request. Also feel free to approach the developers to request to _join the team_ of developers.
@@ -51,9 +53,9 @@ Specifically the following code helps render a 3D model called `bunny.obj` whose
 Therefore to render an alternative model users may replace the model, and optionally also the marker used.
 
 # Markers
-Markers can be found in the `/markers` folder. Currently the code uses markers of the type `4x4_bch_13_9_3` which are contained in the folder [`/markers/4x4_bch_13_9_3`](https://github.com/scanAR/scanar.github.io/tree/master/markers/4x4_bch_13_9_3). Marker `206` is shown below. To test with this marker, print it such that the black square is about 5cm in size, and ensure it has a white border. 
+Markers can be found in the `/markers` folder. Currently the code uses markers of the type `4x4_bch_13_9_3` which are contained in the folder [`/markers/4x4_bch_13_9_3`](https://github.com/scanAR/scanar.github.io/blob/master/markers/4x4_bch_13_9_3). To test a marker, print it such that the black square is about 4cm in size, and ensure it has a white border of about 1 cm. An example for [marker `206`](https://github.com/scanAR/scanar.github.io/blob/master/markers/4x4_bch_13_9_3/206.png) is shown below. 
 
-<img src="/img/206_border.png" alt="/img/206_border.png" width="200">
+<img src="/img/206_border.png" alt="https://github.com/scanAR/scanar.github.io/blob/master/img/206_border.png" width="200">
 
 **Source:** [https://github.com/nicolocarpignoli/artoolkit-barcode-markers-collection](https://github.com/nicolocarpignoli/artoolkit-barcode-markers-collection)
 
