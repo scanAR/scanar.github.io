@@ -6,13 +6,25 @@
 
 <body style="margin : 0px; overflow: hidden;">
 
-      <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 4x4_BCH_13_9_3;'>
+    <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 4x4_BCH_13_9_3;'>
+
+        <a-marker type='barcode' value='155'>
+          <a-entity obj-model="obj: url(/models/david.obj); mtl: url(/models/david.mtl)"></a-entity>
+        </a-marker>
 
         <a-marker type='barcode' value='206'>
           <a-entity obj-model="obj: url(/models/bunny.obj); mtl: url(/models/bunny.mtl)"></a-entity>
         </a-marker>
 
-      <a-entity camera></a-entity>
+        <a-marker type='barcode' value='406'>
+          <a-entity obj-model="obj: url(/models/femur.obj); mtl: url(/models/femur.mtl)"></a-entity>
+        </a-marker>
+
+        <a-marker type='barcode' value='12'>
+          <a-entity obj-model="obj: url(/models/bunny_TPMS.obj); mtl: url(/models/bunny_TPMS.mtl)"></a-entity>
+        </a-marker>
+
+        <a-entity camera></a-entity>
     </a-scene>
 </body>
 
