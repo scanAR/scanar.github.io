@@ -24,6 +24,15 @@
           <a-entity obj-model="obj: url(/models/bunny_TPMS.obj); mtl: url(/models/bunny_TPMS.mtl)"></a-entity>
         </a-marker>
 
+        <a-marker type='barcode' value='489'>
+          <a-entity obj-model="obj: url(/models/spur_gear_m2_N10_core_r6.obj); mtl: url(/models/spur_gear_m2_N10_core_r6.mtl)"
+            rotation="0 0 0" animation="property: rotation; to: 0 720 0; loop: true; dur: 7000">
+          </a-entity>
+          <a-entity obj-model="obj: url(/models/spur_gear_m2_N20_core_r6.obj); mtl: url(/models/spur_gear_m2_N20_core_r6.mtl)"
+            position="1.5 0 0" rotation="0 0 0" animation="property: rotation; to: 0 -360 0; loop: true; dur: 7000">
+          </a-entity>
+        </a-marker>
+
         <a-entity camera></a-entity>
     </a-scene>
 </body>
