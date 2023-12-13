@@ -1,5 +1,7 @@
 ![](/img/scanAR.png)
 
+Cite ScanAR: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10370579.svg)](https://doi.org/10.5281/zenodo.10370579)
+
 # scanAR
 This is the repository for a GitHub pages based website to experiment with based AR visualization prototypes.
 [https://scanar.github.io/](https://scanar.github.io/)
